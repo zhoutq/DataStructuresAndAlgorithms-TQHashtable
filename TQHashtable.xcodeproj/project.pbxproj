@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3BF3B1581FCD90CF006ED04C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3B1571FCD90CF006ED04C /* main.c */; };
+		3BF3B1601FCD90F8006ED04C /* TQHashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 3BF3B15F1FCD90F8006ED04C /* TQHashtable.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3BF3B1541FCD90CF006ED04C /* TQHashtable */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TQHashtable; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF3B1571FCD90CF006ED04C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3BF3B15E1FCD90F8006ED04C /* TQHashtable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQHashtable.h; sourceTree = "<group>"; };
+		3BF3B15F1FCD90F8006ED04C /* TQHashtable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TQHashtable.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				3BF3B1571FCD90CF006ED04C /* main.c */,
+				3BF3B15E1FCD90F8006ED04C /* TQHashtable.h */,
+				3BF3B15F1FCD90F8006ED04C /* TQHashtable.c */,
 			);
 			path = TQHashtable;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BF3B1581FCD90CF006ED04C /* main.c in Sources */,
+				3BF3B1601FCD90F8006ED04C /* TQHashtable.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +180,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -223,6 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -233,6 +241,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
